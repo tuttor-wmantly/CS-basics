@@ -104,7 +104,6 @@ def my_func():
 	* Identify where the middle is, cut this in half, search through that half
 	* "O(log n)" - binary search way. this is usually the fastest 
 
-
 #### Videos and Tutorials
 
 ***Big O Notation***
