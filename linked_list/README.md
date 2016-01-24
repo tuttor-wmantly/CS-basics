@@ -10,3 +10,5 @@
 	- delete
 	- print backwards
 
+#### REQUIRED reading and watching
+[https://study.cs50.net/linked_lists](https://study.cs50.net/linked_lists)
