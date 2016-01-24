@@ -124,10 +124,10 @@ Without using the `reverse` method reverse the string "Hello World"
 
 
 #### REQUIRED reading and watching
-[https://study.cs50.net/trees](https://study.cs50.net/trees)
-[https://study.cs50.net/linked_lists](https://study.cs50.net/linked_lists)
-[https://study.cs50.net/queues](https://study.cs50.net/queues)
-[https://study.cs50.net/stacks](https://study.cs50.net/stacks)
+* [https://study.cs50.net/trees](https://study.cs50.net/trees)
+* [https://study.cs50.net/linked_lists](https://study.cs50.net/linked_lists)
+* [https://study.cs50.net/queues](https://study.cs50.net/queues)
+* [https://study.cs50.net/stacks](https://study.cs50.net/stacks)
 
 #### Videos and Tutorials
 
