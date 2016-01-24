@@ -94,15 +94,40 @@ def my_func():
 	* If we had a function with two for loops in it it would be `O(2n)`. However, we would drop the 2 from that equation because as n gets expomemtially large the two doesn't matter. 
 	* If we had a function with three loops, loop A was a stand alone, and loop C was nested in loop B it would be `O(n + n^2)`. We would drop the smaller n in this equation for the same reason as the previous example
 
-#### Part 3 - Binary Search and Linear Search
 
-* Linear Search is easier to program
-	* You are looping through an array one by one until you find what you are looking for
-	* "O(n)" - going through each value
-* Binary Search is harder to program but more efficient
-	* This only works with a sorted array/list	
-	* Identify where the middle is, cut this in half, search through that half
-	* "O(log n)" - binary search way. this is usually the fastest 
+#### Part 3 - Stacks
+
+* Stacks are abstract data types. Like Linked List this is a concept that is programmable in multiple languages
+* This follows the LIFO process. (Last In First Out)
+* Every `node` holds a `value` and a `pointer` to the next node
+* Imagine a list/array turned 90 degrees to be vertical, where the first element is on the bottom and the last element is on the top
+* The main methods to quickly display stacks are `pop` and `append` (push in other lanuages)
+* `pop` will remove the top node on the stack and return it to you
+* `append` will add a node to the top of the stack
+
+**Five Min Exercise**
+
+Without using the `reverse` method reverse the string "Hello World"
+
+
+
+#### Part 4 - Queues
+
+* Queues are the opposite of Stacks. They are abstract data types that follows the FIFO process (First In, First Out)
+* Imagine an array/list normally (not turned 90 degrees like the stack diagram)
+* `Enqueue` - add a node to the end of the queue
+* `Dequeue` - to remove a node from the front of the queue
+
+![https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/405px-Data_Queue.svg.png](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/405px-Data_Queue.svg.png)
+
+
+
+
+#### REQUIRED reading and watching
+[https://study.cs50.net/trees](https://study.cs50.net/trees)
+[https://study.cs50.net/linked_lists](https://study.cs50.net/linked_lists)
+[https://study.cs50.net/queues](https://study.cs50.net/queues)
+[https://study.cs50.net/stacks](https://study.cs50.net/stacks)
 
 #### Videos and Tutorials
 
@@ -124,6 +149,3 @@ def my_func():
 ***Assert Method***
 
 * [Tutorials Point](http://www.tutorialspoint.com/python/assertions_in_python.htm)
-
-
-
