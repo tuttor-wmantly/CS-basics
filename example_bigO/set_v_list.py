@@ -12,7 +12,7 @@ def make_moby():
     with open('mobydick.txt') as lines:
         for line in lines:
             if line != "\n":
-                line = line.translate(None, string.punctuation).split(" ")
+                line = line.translate(string.punctuation).split(" ")
                 for word in line:
                     if word != '\n':
                         my_list_of_moby_dick.append(word.lower())
@@ -39,10 +39,10 @@ my_dict = make_dictionary()
 print("done making dictionary")
 
 # spell check list
-my_list = ['jeff', 'is', 'a', 'teacher', 'at', 'byte', 'hakuna', 'matata']
-wrapped = wrapper(spell_check, my_list, my_dict)
-print(timeit.timeit(wrapped, number=100))
+# my_list = ['jeff', 'is', 'a', 'teacher', 'at', 'byte', 'hakuna', 'matata']
+# wrapped = wrapper(spell_check, my_list, my_dict)
+# print(timeit.timeit(wrapped, number=100))
 
-# # specll check moby
-# wrapped = wrapper(spell_check, moby, my_dict)
-# print(timeit.timeit(wrapped, number=2))
+# specll check moby
+wrapped = wrapper(spell_check, moby, my_dict)
+print(timeit.timeit(wrapped, number=2))
