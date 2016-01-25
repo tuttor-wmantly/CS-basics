@@ -25,7 +25,7 @@ class LinkedList:
         finds if data exists in a LL
         '''
         n = self.head
-        while n != None:
+        while n.next != None:
             if n.data == data:
                 return True
             else:
